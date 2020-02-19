@@ -1,0 +1,17 @@
+create table question(
+quizno int identity,
+quizDesc varchar(200),
+option1 varchar(100),
+option2 varchar(100),
+option3 varchar(100),
+option4 varchar(100),
+answer int
+)
+insert into question(quizdesc,option1,option2,option3,option4,answer) values('Which of the following options is used to implement assumtions in a Java program ?','assertion','asserts','assert','invariant',3)
+insert into question(quizdesc,option1,option2,option3,option4,answer) values('Which one of the following options is the subclass of all the exception objects?','Error','Throwable','RuntimeException','Exception',2)
+insert into question(quizdesc,option1,option2,option3,option4,answer) values('Which of the following keywords is used to enclose the statements that might raise an exception ?','try','catch','throw','finally',1)
+insert into question(quizdesc,option1,option2,option3,option4,answer) values('Which one of the following classes is the subclass of the window class?','JPanel','JFrame','JList','JTabbedPane',2)
+insert into question(quizdesc,option1,option2,option3,option4,answer) values('Which one of the following event classes contains the getX() and getY() methods?','MouseEvent','KeyEvent','ActionEvent','FocusEvent',1)
+insert into question(quizdesc,option1,option2,option3,option4,answer) values('Which one of the following methods of the Httpsession interface binds an attribute with a session?','isNew()','getAttribute()','setAttribute()','getAttributeNames()',3)
+
+
